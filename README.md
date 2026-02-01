@@ -8,6 +8,4 @@
 
 ### Things to do
 - [X] Write HTML code
-- [ ] Make it pretty with bootstrap
-
-### 
+- [ ] CSS & Bootstrap
