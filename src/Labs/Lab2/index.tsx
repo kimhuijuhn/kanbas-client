@@ -11,6 +11,15 @@ export default function Lab2() {
         it is considered bad practice and you should avoid
         using the style attribute
       </p>
+
+      <p className="test">
+        This paragraph has...
+        <ul>
+          <li> font is </li>
+          <li> 10px padding on left and top </li>
+          <li> Line height is 0.6em.</li>
+        </ul>
+      </p>
     </div>
     );
 }
