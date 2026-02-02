@@ -1,4 +1,28 @@
-p {
-   background-color: blue;
-   color: white;
+.test {
+    display: block;
+    width: 300px;
+    
+    border-radius: 20px;
+
+    margin: 30px;
+    padding: 30px;
+
+    color:black;
+    background-color: beige;
+
+    font-family: monospace;
+    line-height: 1.5em;
+    
+}
+
+.selector-2 {
+    font-family: "Times New Roman"
+}
+
+.selector-1 .selector-3 {
+    background-color:lightslategrey
+}
+
+.selector-1 > .selector-2 > .selector-3 > .selector-4 {
+    background-color: darkslategrey
 }
