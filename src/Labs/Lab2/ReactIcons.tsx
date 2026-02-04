@@ -1,4 +1,4 @@
-import { BsCalendar, BsCalendar2Check } from "react-icons/bs";
+import { BsCalendar } from "react-icons/bs";
 
 export default function ReactIcons() {
     return (
