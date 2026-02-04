@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com');
+
+@media (min-width: 768px) {
+    #wd-kanbas .wd-main-content-offset {
+        padding-left: 140px !important;
+    }
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-kerning: -20;
+}
+
+
+
+/* bootstrap override */
+.list-group.wd > .list-group-item.active {
+    color: black;
+    background-color: white;
+    border-left: 3px solid black !important;
+}
+
+.list-group-item.course {
+    font-family: lato, sans-serif;
+    height: 36px;
+}
