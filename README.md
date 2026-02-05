@@ -7,5 +7,6 @@
 * Node.js 
 
 ### Things to do
-- [X] Write HTML code
-- [ ] CSS & Bootstrap
+- [X] Implement basic structure
+- [X] Apply responsive design
+- [ ] Make pages dynamic using Javascript
