@@ -7,6 +7,6 @@
 * Node.js 
 
 ### Things to do
-- [X] Implement basic structure
-- [X] Apply responsive design
-- [ ] Make pages dynamic using Javascript
+- [X] Implement basic structure with HTML
+- [X] Apply responsive design using Bootstrap
+- [ ] Make pages dynamic using Javascript & Redux
