@@ -3,7 +3,7 @@ import ModulesControls from "./ModulesControls";
 export default function Modules() {
     return (
         <div>
-            <ModulesControls/>
+            <ModulesControls/> <br/>
 
         <ul id="wd-modules">
             <li className="wd-module">

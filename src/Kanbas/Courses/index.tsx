@@ -5,17 +5,17 @@ import Modules from "./Modules";
 import CoursesNavigation from "./Navigation";
 import {Routes, Route, Navigate } from "react-router"
 
+// Icons
+import { VscMenu } from "react-icons/vsc";
+
 export default function Courses() {
   return (
     <div id="wd-courses">
-      <h2>Course 1234</h2>
-      <table>
-        <tbody>
-            <tr>
-                <td valign="top">
+      
+      <p className="course-title"> <VscMenu className="text-danger me-3 mb-1"/> Course 1234 </p>
+
                     <CoursesNavigation/>
-                </td>
-                <td valign="top">
+
                 <Routes>
                     <Route path="/" element={<Navigate to="Home" />} />
                     <Route path="Home" element={<Home/>} />
@@ -24,9 +24,5 @@ export default function Courses() {
                     <Route path="Assignments/:aid" element={<AssignmentEditor/>} />
                     <Route path="People" element={<h2>People</h2>} />
                 </Routes>
-                </td>
-            </tr>
-        </tbody>
-      </table>
     </div>
 );}

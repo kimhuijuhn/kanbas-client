@@ -13,6 +13,12 @@ body {
     font-kerning: -20;
 }
 
+.course-title {
+    color: #dc3545;
+    font-weight: 400;
+    
+}
+
 .lato-bold {
   font-family: "Lato", sans-serif;
   font-weight: 700;
